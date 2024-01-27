@@ -1,0 +1,27 @@
+.Section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 73.75rem;
+height: 14.70438rem;
+padding: 0.82094rem 16.9375rem;
+border-radius: 1.25rem;
+background: linear-gradient(99deg, #F3F0FF 0%, #F0F6FF 100%);
+margin-bottom: 4rem;
+}
+
+.linee{
+margin: 0 auto;
+max-width: 100%;
+}
+
+.btnClub{
+    background: linear-gradient(141deg, #11023B 0%, #321675 100%);
+   color: #fff;
+padding: 5px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+	outline: none;
+	border: none;
+ }

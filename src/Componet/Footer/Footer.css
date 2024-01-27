@@ -1,0 +1,10 @@
+footer{
+    border-top: 1px solid rgba(18, 42, 105, 0.08);
+    padding: 6.0625rem 4.42438rem 3.5rem 4.425rem
+}
+footer .logofooter{
+    width: 7.75rem;
+}
+footer .icon-footer{
+    width: 1.5rem;
+}
