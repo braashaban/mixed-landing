@@ -10,9 +10,10 @@ import "./Section5.css"
 const Section5 = () => {
   return (
     <>
-    <div>
-    <img src={img2} alt="" className='line'/>
+    <div className='img-infinite'>
+    <img src={img2} alt="" className='linee'/>
     </div>
+ 
   
    <div className="main-secyion2">
     <h3>Trending Components </h3>

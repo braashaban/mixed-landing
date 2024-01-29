@@ -6,12 +6,15 @@ import imgline from "../../assets/imges/line.png"
 const Section3 = () => {
     return (
         <>
-    <img src={imgline} alt="line" className='linee' />
+        <div className='img-infinite'>
+        <img src={imgline} alt="line" className='linee' />
+        </div>
+
         <div className='Section3'>
             <img src={imgsec3} alt="" />
             <h2>The Designer & Developers
                 Foundation UI System. Built with Client-First</h2>
-            <button className="btnClub">
+            <button className="btnClubs">
                 <FaCalendarCheck />
                 Browse Componets</button>
 

@@ -7,3 +7,9 @@
     line-height: 1.5rem; /* 150% */
     letter-spacing: -0.01rem;  
 }
+.img-infinite{
+    max-width: 70.75rem;
+  }
+  .img-infinite img{
+  text-align: center;
+  }

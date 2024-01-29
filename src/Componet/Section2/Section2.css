@@ -29,3 +29,12 @@ align-items: center;
 flex-wrap: wrap;
 margin-bottom: 4rem;
 }
+.img-infinite{
+  max-width: 70.75rem;
+}
+.img-infinite img{
+text-align: center;
+}
+.cardsection22{
+  margin-bottom: 20px;
+}

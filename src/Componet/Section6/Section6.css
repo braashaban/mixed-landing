@@ -41,3 +41,9 @@
     border: 1px solid rgba(245, 212, 255, 0.24);
     background: linear-gradient(63deg, rgba(185, 205, 255, 0.40) 0%, rgba(201, 182, 255, 0.40) 33.33%, rgba(239, 184, 255, 0.40) 66.67%, rgba(255, 210, 177, 0.40) 100%);
 }
+.img-infinite{
+    max-width: 70.75rem;
+  }
+  .img-infinite img{
+  text-align: center;
+  }

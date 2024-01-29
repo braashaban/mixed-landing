@@ -8,15 +8,15 @@ import img6 from "../../assets/imges/re6.png"
 import img7 from "../../assets/imges/re7.png"
 import img8 from "../../assets/imges/re8.png"
 
-import line from "../../assets/imges/line.png"
+import imgline from "../../assets/imges/line.png"
 
 const Section6 = () => {
   return (
     <>
    
-    <div>
-    <img src={line} alt="" className='line'/>
-    </div>
+   <div className='img-infinite'>
+        <img src={imgline} alt="line" className='linee' />
+        </div>
   
    <div className="main-secyion2">
     <div>

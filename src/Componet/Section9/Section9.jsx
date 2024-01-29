@@ -10,8 +10,8 @@ const Section9 = () => {
   return (
     <>
    
-    <div>
-    <img src={line} alt="" className='line'/>
+   <div className='img-infinite'>
+    <img src={line} alt="" className='linee'/>
     </div>
   
    <div className="main-secyion2">

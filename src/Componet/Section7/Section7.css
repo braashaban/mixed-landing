@@ -62,3 +62,9 @@ padding: 0.375rem 0.85519rem 0.375rem 0.875rem;
     }
     
 }
+.img-infinite{
+    max-width: 70.75rem;
+  }
+  .img-infinite img{
+  text-align: center;
+  }

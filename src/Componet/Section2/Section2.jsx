@@ -13,21 +13,24 @@ import img10 from "../../assets/imges/card2-8.png"
 const Section2 = () => {
   return (
     <>
-  <img src={img2} alt="" />
+    <div className='img-infinite'>
+    <img src={img2} alt="" className='linee'/>
+    </div>
+ 
    <div className="main-secyion2">
     <h3>Recent Components</h3>
     <button className='btn-recent'>Browse all</button>
    </div>
     <div className='Section2'>
 
-<CardSection2 img={img3}title= "Contact Form" paragraph="Added Nov 10,2023 in" head="Form & Contact"/>
-<CardSection2 img={img4}title= "Contact Form" paragraph="Added Nov 10,2023 in" head="Form & Contact"/>
-<CardSection2 img={img5}title= "Integrations" paragraph="Added Nov 9,2023 in" head="Integrations"/>
-<CardSection2 img={img6}title= "Integrations" paragraph="Added Nov 9,2023 in" head=" Integrations"/>
-<CardSection2 img={img7}title= "Header" paragraph="Added Nov 8,2023 in" head="Header"/>
-<CardSection2 img={img8}title= "Header" paragraph="Added Nov 8,2023 in" head="Header"/>
-<CardSection2 img={img9}title= "Features" paragraph="Added Nov 8,2023 in" head="Features"/>
-<CardSection2 img={img10}title= "Features" paragraph="Added Nov 8,2023 in" head="Features"/>
+<CardSection2 img={img3}title= "Contact Form" paragraph="Added Nov 10,2023 in" head="Form & Contact" className="cardsection22"/>
+<CardSection2 img={img4}title= "Contact Form" paragraph="Added Nov 10,2023 in" head="Form & Contact" className="cardsection22"/>
+<CardSection2 img={img5}title= "Integrations" paragraph="Added Nov 9,2023 in" head="Integrations" className="cardsection22"/>
+<CardSection2 img={img6}title= "Integrations" paragraph="Added Nov 9,2023 in" head=" Integrations" className="cardsection22"/>
+<CardSection2 img={img7}title= "Header" paragraph="Added Nov 8,2023 in" head="Header" className="cardsection22"/>
+<CardSection2 img={img8}title= "Header" paragraph="Added Nov 8,2023 in" head="Header" className="cardsection22"/>
+<CardSection2 img={img9}title= "Features" paragraph="Added Nov 8,2023 in" head="Features" className="cardsection22"/>
+<CardSection2 img={img10}title= "Features" paragraph="Added Nov 8,2023 in" head="Features" className="cardsection22"/>
 
     </div>
     

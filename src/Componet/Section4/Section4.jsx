@@ -10,7 +10,9 @@ import img6 from "../../assets/imges/trend4.png"
 const Section4 = () => {
   return (
     <>
-  <img src={img2} alt="" className='line'/>
+   <div className='img-infinite'>
+    <img src={img2} alt="" className='linee'/>
+    </div>
    <div className="main-secyion2">
     <h3>Trending Components </h3>
     <button className='btn-recent'>Browse all</button>
