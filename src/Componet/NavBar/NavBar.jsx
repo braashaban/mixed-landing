@@ -10,7 +10,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavBar = () => {
     return (
       
-            <Navbar expand="lg" className="bg-body-tertiary Navbar">
+            <Navbar expand="lg" className="Navbar">
                 <Container>
                     <Navbar.Brand href="#home">
                         <div className="logo">
@@ -24,11 +24,11 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="m-auto">
-                            <Nav.Link href="#home">Explore </Nav.Link>
-                            <Nav.Link href="#link">Product <SlArrowDown /></Nav.Link>
+                            <Nav.Link href="#home" className="links">Explore </Nav.Link>
+                            <Nav.Link href="#link" className="links">Product <SlArrowDown /></Nav.Link>
 
-                            <Nav.Link href="#link">Resources <SlArrowDown /></Nav.Link>
-                            <Nav.Link href="#link">pricing </Nav.Link>
+                            <Nav.Link href="#link" className="links">Resources <SlArrowDown /></Nav.Link>
+                            <Nav.Link href="#link" className="links">pricing </Nav.Link>
                         
 
                         </Nav>

@@ -17,4 +17,5 @@
 .alert-img img{
     position: absolute;
     bottom: 10%;
+    max-width: 100%;
 }
