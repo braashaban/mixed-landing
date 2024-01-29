@@ -20,7 +20,7 @@ const Footer = () => {
         <footer>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='footer-header'>
                         <img src={logo} alt="" className='logofooter' />
                         <span>Webflow Designer Resources</span>
                         <img src={soical1} alt="" className='icon-footer' />
@@ -34,8 +34,6 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col lg="3" md="4" sm="2">
-
-
                         <h6>Explore</h6>
                         <p>All Components </p>
                         <p>Wireframes </p>
@@ -50,10 +48,8 @@ const Footer = () => {
                         <p>Pricing </p>
                         <p>Blog </p>
                         <p>Testimonials </p>
-
-
                     </Col>
-                    <Col lg="3" md="4" sm="2" g="5">
+                    <Col lg="3" gap="5" md="4" sm="2">
                         <h6>Resources</h6>
                         <p>Blogs </p>
                         <p>Integrations </p>
@@ -61,9 +57,7 @@ const Footer = () => {
                         <p>Support Center</p>
                         <p>Join Discord </p>
                         <p>What's New </p>
-
-
-                        <div>
+                        <div className="img-footer2">
                             <h6>Our Product Suite</h6>
                             <div>
                                 <img src={img1} alt="" />
@@ -85,7 +79,7 @@ const Footer = () => {
                         </div>
 
                     </Col>
-                    <Col lg="3" md="4" sm="2">
+                    <Col lg="3"gap="5" md="4" sm="2">
 
 
                         <h6>Store</h6>
@@ -104,7 +98,7 @@ const Footer = () => {
 
 
                         </div></Col>
-                    <Col lg="3" md="4" sm="2">
+                    <Col lg="3"  md="4" sm="2">
 
                         <h6>Company</h6>
                         <p>All Components </p>
@@ -117,7 +111,10 @@ const Footer = () => {
 
                     </Col>
                 </Row>
-
+<div className='footer-copy'>
+    <p>© 2024 Flowbase. All rights reserved</p>
+    <p>Powered by @webflow</p>
+</div>
             </Container>
         </footer>
     )
